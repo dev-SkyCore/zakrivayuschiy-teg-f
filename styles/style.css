@@ -169,7 +169,6 @@
 .card__image {
   display: block;
   object-fit: cover;
-  object-fit: cover;
   object-position: center;
   inline-size: 100%;
   aspect-ratio: 1;
@@ -243,18 +242,16 @@
 }
 
 .card__icon-button {
-  border: none;
+  border: 2px solid transparent;
   background-color: var(--color-button);
+  transition: border-color 0.3s ease;
   cursor: pointer;
 }
 
-.card__icon-button {
-  border: 2px solid transparent;
-  transition: border-color 0.3s ease;
-}
 .card__icon-button:focus {
   outline: none;
 }
+
 .card__icon-button:focus-visible {
   border-color: var(--color-content);
 }
