@@ -1,9 +1,10 @@
 :root {
   --font-family-main: "Inter-Variable", sans-serif;
-  --font-family-accent: "Press Start 2P", monospace;
+  --font-family-accent: "Press Start 2P", fantasy;
 
-  --text-weight: 400;
-  --title-weight: 700;
+  --text-weight: 410;
+  --title-weight: 715;
+  --text-weight-accent: 400;
 
   --main-title-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
   --main-description-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
@@ -39,4 +40,8 @@
   --save-button-width: clamp(306px, calc(295.74px + 2.727vw), 335px);
   --save-button-height: clamp(55px, calc(97.17px - 3.05vw), 84px);
   --save-button-padding: clamp(17px, calc(12.069cqw - 19.94px), 20.5px) 20px;
+
+  --dialog-width: clamp(341px, calc(336.74px + 1.006vw), 353px);
+  --dialog-inline-padding: clamp(30px, calc(43.52px - 0.936vw), 40px);
+  --dialog-button-width: clamp(261px, calc(249.73px + 3.005vw), 293px);
 }
